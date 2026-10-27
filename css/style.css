@@ -1,0 +1,19 @@
+/* Плавная прокрутка к блокам */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Настройки скроллбара */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E50914;
+}
